@@ -1,4 +1,3 @@
-- - Assignment 1 - -
 
 class Smartphone:
     def __init__(self, brand, model, storage):
@@ -33,7 +32,7 @@ class Smartphone:
     def get_status(self):
         return f"{self.brand} {self.model} | Storage: {self.storage}GB | Battery: {self._battery_level}%"
 
-- - Assignment 2 - -
+
 
 # Base class (can be abstract or just a generic parent)
 class Entity:
